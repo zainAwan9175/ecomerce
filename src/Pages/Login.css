@@ -1,0 +1,80 @@
+.maincontainer{
+    background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+}
+.container1{
+    background-color: rgb(236, 225, 225);
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    
+    
+}
+.myinput{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 40%;
+}
+.input{
+    padding: 9px;
+    width: 100%;
+
+}
+.continuebtn{
+    background-color: #ff4141;
+    padding: 9px;
+    width: 107%;
+    border: 1px solid  #ff4141;
+    cursor: pointer;
+    color: white;
+}
+.already{
+    display: flex;
+}
+.chekbox1{
+    padding: 5px;
+    background-color: #ff4141;
+
+}
+.loginhere{
+    
+    color: #ff4141;
+    cursor: pointer;
+    position: relative;
+    left: 9px;
+    bottom: 6px;
+}
+.chck{
+    display: flex;
+}
+
+.container2{
+   margin-top: 40px;
+    
+}
+
+@media (max-width:450px)
+{
+    .container1{
+   
+        width: 90%;
+        
+    }
+    .myinput{
+        width: 70%;
+    }
+    .maincontainer{
+
+        height: 90vh;
+       
+    }
+}

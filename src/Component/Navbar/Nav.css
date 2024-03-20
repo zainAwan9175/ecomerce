@@ -1,0 +1,174 @@
+.nav{
+    color: rgb(0, 0, 0);
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    box-shadow: 0px 1px 1px 1px rgb(128, 105, 105);
+    height: 10vh;
+  
+position: fixed;
+top: 0px;
+background-color: burlywood;
+z-index: 5;
+width: 100%;
+ 
+
+
+}
+.list{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    
+
+
+}
+
+
+.dropdownIcon{
+    width: 24px;
+    display: none;
+}
+.cross{
+    width: 24px;
+    display: none;
+
+}
+
+.links{
+    text-decoration: none;
+    font-weight: 700px;
+    color: black;
+}
+
+.logo{
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.login{
+    display: flex;
+    /* justify-content: center; */
+    gap: 19px;
+ 
+}
+.btnlogin{
+    padding: 5px;
+    width: 90px;
+    border-radius: 10px;
+color: white;
+
+    border: 3px solid  rgb(115, 75, 23);
+    height: 30px;
+    margin-top: 15px;
+
+    background-color:rgb(115, 75, 23) ;
+ 
+}
+.active{
+    background-color:rgb(115, 75, 23);
+    border: 2px solid  rgb(115, 75, 23);
+    
+    border-radius: 3px;
+
+}
+.log{
+    height: 60px;
+}
+.cart{
+    height: 40px;
+    margin-top: 12px;
+}
+.cart-count{
+    background-color: rgb(255, 0, 0);
+    color: aliceblue;
+    padding: 3px;
+    height: 30%;
+    width: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: relative;
+    right: 23px;
+    
+    
+}
+.list.activee{
+    display: flex;
+}
+.arow{
+    visibility: hidden;
+}
+.cut{
+    display: block;
+
+}
+
+@media(max-width:720px)
+{
+
+    .list{
+        display: none;
+        position: absolute;
+        top: 80px;
+        left: 50%;
+        right: 0;
+        transform: translateX(-50%);
+        background-color: rgb(255, 255, 255);
+        height:10vh;
+        z-index: 3;
+        width: 65%;
+    }
+  
+        .dropdownIcon{
+            width: 24px;
+            display: block;
+        }
+       
+        .log{
+                 height: 50px;
+        }
+
+        .cart{
+            height:30px;
+            
+        }
+        .btnlogin{
+           padding: 0px;
+           width: 50px;
+        }
+}
+
+
+@media(max-width:320px)
+{
+        .log{
+                 height: 40px;
+        }
+
+        .cart{
+            height:25px;
+            
+        }
+      
+        .main{
+            overflow-x: hidden;
+        }
+
+        .list{
+            display: none;
+            position: absolute;
+            top: 80px;
+            left: 50%;
+            right: 0;
+            transform: translateX(-50%);
+            background-color: rgb(255, 255, 255);
+            height:10vh;
+            z-index: 3;
+            width: 65%;
+        }
+}

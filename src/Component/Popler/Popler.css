@@ -1,0 +1,40 @@
+.popmain{
+  
+   
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    min-height: 100px;
+margin-top: 30px;
+    
+
+
+   
+}
+
+.line-popler{
+    display: flex;
+    justify-content: center;
+}
+
+.line{
+    width: 70%;
+    height: 5px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+@media(max-width:400px)
+{
+    .size{
+        font-size: 11px;
+    }
+}
+
+@media(max-width:300px)
+{
+    .size{
+        font-size: 9px;
+    }
+}

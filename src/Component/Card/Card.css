@@ -1,0 +1,44 @@
+.mainc{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 70px;
+
+
+
+  
+}
+.data{
+    width: 240px;
+    
+}
+.main:hover {
+    transform: translateY(-8px);
+    transition: transform 1s;
+}
+.p-img{
+    width: 280px;
+    height: 300px;
+    cursor: pointer;
+
+}
+
+.price{
+    display: flex;
+    gap: 10px;
+    margin-left: 5px;
+}
+.oldprice{
+    text-decoration: line-through;
+    font-weight: bold;
+}
+@media (max-width:320px)
+{
+    .main{
+        width: 190px;
+    }
+    .p-img{
+        width: 190px;
+    }
+}

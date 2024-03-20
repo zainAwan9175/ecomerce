@@ -1,0 +1,44 @@
+.mainchatagory{
+    margin-top: 140px;
+    
+}
+.baner{
+    width: 100vw;
+}
+.show{
+    display: flex;
+    margin-left: 3%;
+ 
+}
+.slectmain{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+ 
+}
+.showpara{
+ position: relative;
+ top: 5px;
+ left: 6px;
+}
+.slect{
+padding: 5px;
+border-radius: 10px;
+position: absolute;
+right: 3%; 
+
+}
+.dropmain{
+ 
+    margin-bottom: 25px;
+}
+.setting{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}

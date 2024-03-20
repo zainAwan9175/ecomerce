@@ -1,0 +1,9 @@
+.mainline{
+    margin-left: 40%;
+}
+.colline{
+    width: 30%;
+    height: 3px;
+    border-radius: 5px ;
+    background-color: black;
+}

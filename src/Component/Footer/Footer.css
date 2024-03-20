@@ -1,0 +1,55 @@
+.logofooter{
+    display: flex;
+    justify-content: center;
+
+   
+}
+.mainfooter{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.company{
+  
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 15px;
+
+}
+.company p{
+cursor: pointer;
+font-weight: 500;
+
+}
+.app{
+ 
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    margin-top: 10px;
+}
+.box{
+    padding: 3px;
+    background-color: rgb(228, 219, 210);
+}
+.copy{
+
+    font-size: 18px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.copyline{
+    width: 80%;
+    background-color: black;
+    height: 3px;
+    border-radius:5px ;
+}

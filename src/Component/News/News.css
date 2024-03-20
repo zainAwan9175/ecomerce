@@ -1,0 +1,99 @@
+.mainnews{ 
+    background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
+    width: 80%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+  
+
+  
+    
+
+}
+.mainnews2{
+    width: 80%;
+    text-align: center;
+    display: flex;
+    margin: 5%;
+    flex-direction: column;
+    align-items: center;
+}
+@media(max-width:450px)
+{
+    .mainnews{
+        height: 400px;
+    }
+  
+}
+.email{
+    padding: 15px;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+
+    border-radius:25px 0px 0px 25px ;
+}
+
+.btn{
+    padding: 15px;
+    border: 3px solid black;
+    border-radius: 0px 25px 25px 0px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.ourinput{
+    margin-top: 20px;
+}
+@media(max-width:490px)
+{
+    .email{
+        padding: 5px;
+        border-top: 3px solid black;
+        border-left: 3px solid black;
+        border-bottom: 3px solid black;
+    
+        
+        border-radius:25px 0px 0px 25px ;
+        width: 50%;
+    
+    }
+
+    .btn{
+        padding: 5px;
+        border: 3px solid black;
+        border-radius: 0px 25px 25px 0px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+   
+    }
+
+}
+
+@media(max-width:300px)
+{
+    .email{
+        padding: 2px;
+        border-top: 3px solid black;
+        border-left: 3px solid black;
+        border-bottom: 3px solid black;
+    
+        
+        border-radius:25px 0px 0px 25px ;
+        width: 57%;
+    
+    }
+
+    .btn{
+        padding: 2px;
+        border: 3px solid black;
+        border-radius: 0px 25px 25px 0px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        width: 37%;
+   
+    }
+
+}
